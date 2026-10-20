@@ -18,6 +18,23 @@ window.LEHRKRAFT = {
     11: { mebis: "", arbeitsblaetter: "", videos: "", zusatzmaterial: "", drive: "" },
     12: { mebis: "", arbeitsblaetter: "", videos: "", zusatzmaterial: "", drive: "" },
   },
+  // Materialbuttons fuer JEDE STUNDE: Arbeitsblaetter und Zusatzmaterial.
+  // Beispiel BW 1 / Stunde 2: 2: { arbeitsblaetter: "https://...", zusatzmaterial: "https://..." }
+  // Bei leerem Link wird der Button als "Link folgt" dargestellt.
+  STUNDEN_MATERIAL: {
+    1: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    2: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    3: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    4: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    5: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    6: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    7: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    8: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    9: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    10: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    11: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+    12: { 1: { arbeitsblaetter: "", zusatzmaterial: "" }, 2: { arbeitsblaetter: "", zusatzmaterial: "" }, 3: { arbeitsblaetter: "", zusatzmaterial: "" }, 4: { arbeitsblaetter: "", zusatzmaterial: "" } },
+  },
   // Einzelne Stunden: Direktlink zu ByCS, PDF, Videosammlung usw.
   STUNDEN_LINKS: {
     1: { stunde1: "", stunde2: "", stunde3: "", stunde4: "" },
