@@ -487,8 +487,36 @@ function combustionLessonHtml(){
    </div>
 
    <div class="comb-phase">
+     <div class="comb-meta"><span class="comb-chip">Zuordnung · Stoffströme</span><span class="comb-chip comb-sheet">Arbeitsblatt S. 1 · Aufgabe 6.1 / 6.2</span></div>
+     <h3>6 · Was geht in die Flamme hinein – und was kommt heraus?</h3>
+     <div class="comb-task">
+       <label>Brennbare Bestandteile im Brennstoff<select data-correct="C, H₂, S"><option value="">wählen …</option><option>C, H₂, S</option><option>CO₂, H₂O, NOₓ</option><option>N₂, O₂, CO₂</option></select></label>
+       <label>Wichtige Bestandteile der Verbrennungsluft<select data-correct="O₂ und N₂"><option value="">wählen …</option><option>O₂ und N₂</option><option>CO und Ruß</option><option>C und H₂</option></select></label>
+       <label>Typische Produkte bei vollständiger Verbrennung<select data-correct="CO₂, H₂O, SO₂"><option value="">wählen …</option><option>CO₂, H₂O, SO₂</option><option>C, H₂, O₂</option><option>nur CO</option></select></label>
+     </div>
+     <button class="comb-check" type="button" data-check-selects>Zuordnung prüfen</button><div class="comb-feedback"></div>
+     <div class="comb-note"><strong>Reaktionsschema:</strong> C + O₂ → CO₂ · H₂ + O₂ → H₂O · S + O₂ → SO₂. Stickoxide NOₓ entstehen aus Stickstoff/Sauerstoff unter geeigneten Verbrennungsbedingungen.</div>
+     <div class="comb-paper">✍️ Beschrifte Aufgabe 6.1 mit N₂, O₂, H₂O, CO₂, C, H₂, S, NOₓ und ergänze anschließend die drei Reaktionszeilen in 6.2.</div>
+   </div>
+
+   <div class="comb-phase">
+     <div class="comb-meta"><span class="comb-chip">Tabellenbuch-Rallye</span><span class="comb-chip comb-sheet">Übungsblatt · Aufgabe 1 bis 5</span></div>
+     <h3>7 · Luftbedarf, Verbrennungsprodukte und NOₓ</h3>
+     <div class="comb-timer" data-seconds="480"><span class="comb-clock">08:00</span><button type="button" class="comb-start">Timer starten</button><button type="button" class="comb-plus">+ 2 min</button></div>
+     <div class="comb-task comb-grid2">
+       <label>Lmin Erdgas E<input type="text" placeholder="Wert + Einheit aus dem TBB"></label>
+       <label>Lmin Heizöl EL<input type="text" placeholder="Wert + Einheit aus dem TBB"></label>
+       <label>Lmin Propan<input type="text" placeholder="Wert + Einheit aus dem TBB"></label>
+       <label>Welcher Stoff fehlt bei einer vollständigen Verbrennung von Heizöl EL?<input type="text" placeholder="Vergleiche vollständige / unvollständige Verbrennung"></label>
+       <label style="grid-column:1/-1">Wann entstehen Stickoxide besonders leicht?<textarea placeholder="Nutze die Fachinfo und formuliere in eigenen Worten."></textarea></label>
+     </div>
+     <div class="comb-note"><strong>Fachhinweis zu NOₓ:</strong> Hohe Verbrennungstemperaturen begünstigen die Bildung von Stickoxiden. Vergleiche diese Aussage mit deinem Tabellenbuch bzw. Unterrichtsmaterial.</div>
+     <div class="comb-paper">✍️ Trage die drei Lmin-Werte sowie deine Antworten zu Aufgabe 2–5 in das Übungsblatt ein.</div>
+   </div>
+
+   <div class="comb-phase">
      <div class="comb-meta"><span class="comb-chip">Rechnen · Lambda</span><span class="comb-chip comb-sheet">Übungsblatt · Aufgabe 6</span></div>
-     <h3>6 · Luftbedarf und Luftüberschuss</h3>
+     <h3>8 · Luftbedarf und Luftüberschuss</h3>
      <p>Formel: <strong>λ = L<sub>tats</sub> / L<sub>min</sub></strong>. Für die Rechnung auf deinem Blatt ist L<sub>tats</sub> = 13,5 m³ Luft je kg Heizöl EL gegeben. Den theoretischen Luftbedarf L<sub>min</sub> entnimmst du wie vorgesehen dem Tabellenbuch.</p>
      <div class="comb-timer" data-seconds="420"><span class="comb-clock">07:00</span><button type="button" class="comb-start">Timer starten</button><button type="button" class="comb-plus">+ 2 min</button></div>
      <div class="comb-task">
@@ -501,8 +529,44 @@ function combustionLessonHtml(){
    </div>
 
    <div class="comb-phase">
+     <div class="comb-meta"><span class="comb-chip">Tabellenbuch · Kennwerte</span><span class="comb-chip comb-sheet">Übungsblatt · Aufgabe 7 / 8</span></div>
+     <h3>9 · Kennwerte der Verbrennung</h3>
+     <p>Nutze die Tabelle auf deinem Arbeitsblatt als Suchauftrag. Übertrage die Werte für die jeweils vorgesehenen Brennstoffe direkt aus dem Tabellenbuch.</p>
+     <table class="comb-mini-table">
+       <thead><tr><th>Kennwert</th><th>Was du auf dem Arbeitsblatt einträgst</th></tr></thead>
+       <tbody>
+         <tr><td>Heizwert H<sub>i</sub></td><td>Werte + passende Einheit</td></tr>
+         <tr><td>Brennwert H<sub>s</sub></td><td>Werte + passende Einheit</td></tr>
+         <tr><td>Relative Dichte d<sub>r</sub></td><td>bei den gasförmigen Brennstoffen</td></tr>
+         <tr><td>Wobbe-Index W<sub>s,n</sub></td><td>bei den gasförmigen Brennstoffen</td></tr>
+         <tr><td>Zündtemperatur / Zündgrenzen / Zündgeschwindigkeit</td><td>nur dort, wo die Tabelle Werte vorsieht</td></tr>
+         <tr><td>Theoretischer Luftbedarf L<sub>min</sub></td><td>Wert aus TBB</td></tr>
+         <tr><td>Luftüberschuss / max. CO₂ / Dichte</td><td>entsprechend Tabellenbuch</td></tr>
+       </tbody>
+     </table>
+     <div class="comb-note"><strong>Relative Dichte:</strong> Sie zeigt, ob ein Gas leichter oder schwerer als Luft ist – genau dieser Zusammenhang steht auch in deiner Mindmap.</div>
+     <div class="comb-paper">✍️ Aufgabe 7 vollständig mit dem Tabellenbuch ausfüllen und Aufgabe 8 in einem vollständigen Satz beantworten.</div>
+   </div>
+
+   <div class="comb-phase">
+     <div class="comb-meta"><span class="comb-chip">Sicherung · Mindmap</span><span class="comb-chip comb-sheet">Mindmap-Blatt · Begriffe rund um Verbrennung</span></div>
+     <h3>10 · Baue aus den Ergebnissen deine Mindmap</h3>
+     <div class="comb-timer" data-seconds="480"><span class="comb-clock">08:00</span><button type="button" class="comb-start">Timer starten</button><button type="button" class="comb-plus">+ 2 min</button></div>
+     <p>Übertrage nicht einfach ganze Sätze. Nutze kurze Fachbegriffe und Pfeile. Diese sechs Äste sollten nach den bisherigen Aufgaben vorhanden sein:</p>
+     <div class="comb-task">
+       <label><input type="checkbox"> Voraussetzungen der Verbrennung</label>
+       <label><input type="checkbox"> vollständige / unvollständige Verbrennung</label>
+       <label><input type="checkbox"> Verbrennungsprodukte / Schadstoffe</label>
+       <label><input type="checkbox"> Zündtemperatur, Zündgrenzen, Zündgeschwindigkeit</label>
+       <label><input type="checkbox"> theoretischer Luftbedarf / Luftüberschuss / λ</label>
+       <label><input type="checkbox"> wichtige Kennwerte aus dem Tabellenbuch</label>
+     </div>
+     <div class="comb-paper">✍️ Ergänze damit die Mindmap auf deinem dritten Blatt. Ziel: Das Blatt ist anschließend als eigene Lernübersicht verwendbar.</div>
+   </div>
+
+   <div class="comb-phase">
      <div class="comb-meta"><span class="comb-chip">Partnerdiagnose</span><span class="comb-chip comb-sheet">zurück zum Kundenfall</span></div>
-     <h3>7 · Diagnose: Was sagst du jetzt dem Kunden?</h3>
+     <h3>11 · Diagnose: Was sagst du jetzt dem Kunden?</h3>
      <div class="comb-timer" data-seconds="480"><span class="comb-clock">08:00</span><button type="button" class="comb-start">Timer starten</button><button type="button" class="comb-plus">+ 2 min</button></div>
      <div class="comb-task">
        <label>3 mögliche Ursachen<textarea placeholder="z. B. Luftmangel, schlechte Durchmischung, verschmutzte Heizflächen ..."></textarea></label>
@@ -514,7 +578,7 @@ function combustionLessonHtml(){
 
    <div class="comb-phase">
      <div class="comb-meta"><span class="comb-chip">Kompetenzcheck</span><span class="comb-chip">3 Minuten</span></div>
-     <h3>8 · Kurzcheck ohne Unterlagen</h3>
+     <h3>12 · Kurzcheck ohne Unterlagen</h3>
      <div class="comb-timer" data-seconds="180"><span class="comb-clock">03:00</span><button type="button" class="comb-start">Timer starten</button></div>
      <div class="comb-task">
        <label>1. Nenne die drei Voraussetzungen.<textarea></textarea></label>
